@@ -1,0 +1,115 @@
+
+:root{
+--primaryColor:#23264b;
+--secondaryColor:#e7b54c;
+
+}
+.main-header,.main-content,.images-container {
+background-color: var(--primaryColor)
+}
+ .main-active{
+color: var(--secondaryColor);
+}
+.navbar-bg {
+    background-color: var(--primaryColor);
+    color: white;
+}
+.navbar-a-color{
+    color: #83869b;
+}
+.me{
+    color: var(--secondaryColor);
+}
+.me :hover{
+color: var(--secondaryColor);
+}
+.spanColor{
+    color: white;
+}
+.images-container{
+ height: 100vh;
+  
+
+}
+.people-img-container{
+    background-image: url('../assets/images/image.png');
+    background-repeat: no-repeat;
+    background-size:  560px;
+ height: 100vh;
+    
+}
+.btn-bg-color{
+ background-color:    #252b52;
+}
+.signup-btn{
+width: 130px;
+height: 50px;
+border-radius: 40%;
+padding: 15px 10px;
+
+
+font-size: 15px;
+font-weight: 500;
+}
+.signin-btn,.readmore-btn{
+width: 100px;
+color: white;
+    
+}
+/* CSS */
+.signup-btn,.searchJobbtn {
+  align-items: center;
+  border: 1px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  border-radius: 100px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 600;
+  justify-content: center;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+
+}
+.searchJobbtn{
+    width:160px ;
+    padding: 15px 20px;
+}
+.readmore-btn{
+    color: var(--secondaryColor);
+    background-color: var(--primaryColor);
+}
+.future-bg{
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    padding: 10px 20px;
+    padding-left: 20px;
+    border-radius: 100px;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+.paragraph{
+    color: #ced0d8;
+}
+.our-partners-color{
+    color: #9297ac;
+}
+
+@media all and (device-width: 768px)
+ and (device-height: 1024px)
+  and (orientation:portrait) {
+
+    .people-img-container{
+        background-size:  450px;
+        margin-top: 120px;
+    }
+    .signup-btn,.signin-btn {
+        display: none;
+    }
+    .ipad-portrait { color: red; } /* your css rules for ipad portrait */
+  }
+  @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+    .ipad-landscape { color: blue; } /* your css rules for ipad landscape */
+  }
