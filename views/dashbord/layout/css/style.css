@@ -99,7 +99,7 @@ ul{
 }
 
 .setting-box .option-box img{
-    border-radius: 50%;
+    border-radius: 10%;
     width: 120px;
     height: auto;
     margin-bottom: 20px;
