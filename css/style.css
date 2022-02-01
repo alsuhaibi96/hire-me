@@ -150,7 +150,20 @@ right: 90px;
     font-size: 30px;right:260px;
     top:10px;
 }
-
+.profile-body-bg{
+ background-color :  #e6e6e6;
+}
+.profile-bg{
+    background-color: #3a3a3c;
+}
+.vl{
+border-right: 2px solid black;
+height: 500px;
+}
+.vl-sm{
+    border-right: 1px solid white;
+    height: 25px;
+}
 @media all and (device-width: 768px)
  and (device-height: 1024px)
   and (orientation:portrait) {
@@ -199,5 +212,12 @@ font-size: 10px;
         .search-cap{
             font-size: 18px;
         }
-        
+        .mail-text{
+            font-size: 8px;
+        }
+        .vl{
+         
+            height: 610px;
+            }
+       
   }
