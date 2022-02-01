@@ -2,7 +2,7 @@
 :root{
 --primaryColor:#23264b;
 --secondaryColor:#e7b54c;
-
+--textColor:#29294c;
 }
 .main-header,.main-content,.images-container {
 background-color: var(--primaryColor)
@@ -96,6 +96,60 @@ color: white;
 .our-partners-color{
     color: #9297ac;
 }
+.partners-bg{
+  background-color: #214674;
+}
+
+
+
+  .features-text-color{
+      color: var(--textColor);
+  }
+  .search-container{
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 100px;
+      border: 3px solid #dce7f5;
+      height: 70px;
+      width:90%;
+  }
+  .fa-fa-bg{
+background-color: #dfe9f6;
+
+}
+.search-bg{
+  background-color:   #214674;
+}
+.search-btn-bg{
+    border-radius: 100px;
+    padding-left: 20px;
+
+    width: 120px;
+    padding: 10px 0px;
+    height: 45px;
+    top:10px;
+    left: 4px;
+}
+.search-container input {
+width: 150px;
+border: none;
+height: 40px;
+}
+.top-px{
+    top: 10px;
+
+}
+.top-right-px{
+    top: 10px;
+right: 90px;
+}
+#place-inp{
+    position: absolute; right:320px;top:10px
+}
+#place-icon{
+    font-size: 30px;right:260px;
+    top:10px;
+}
 
 @media all and (device-width: 768px)
  and (device-height: 1024px)
@@ -112,4 +166,38 @@ color: white;
   }
   @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
     .ipad-landscape { color: blue; } /* your css rules for ipad landscape */
+  }
+
+  @media screen  and (max-width:548px) {
+    .search-btn-bg{
+        border-radius: 50px;
+        padding-left: 5px;
+    font-size: 10px;
+        width: 90px;
+        padding: 10px 0px;
+        top:10px;
+        left: 4px;
+    }
+   .search-container i{
+font-size: 10px;
+    }
+    .search-container input {
+        width: 80px;
+        border: none;
+        height: 40px;
+        right: 14px;
+        }
+        .top-px{
+            display: none;
+        }
+        #place-inp{
+            right: 100px;
+        }
+        #search-icon{
+            font-size: 10px;
+        }
+        .search-cap{
+            font-size: 18px;
+        }
+        
   }
