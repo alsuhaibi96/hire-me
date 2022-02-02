@@ -26,16 +26,11 @@ color: var(--secondaryColor);
 .spanColor{
     color: white;
 }
-.images-container{
- height: 100vh;
-  
 
-}
 .people-img-container{
     background-image: url('../assets/images/image.png');
     background-repeat: no-repeat;
     background-size:  560px;
- height: 100vh;
     
 }
 .btn-bg-color{
@@ -164,13 +159,57 @@ height: 500px;
     border-right: 1px solid white;
     height: 25px;
 }
+/*
+
+ Form control style
+##login ##Sign in ##Contact us
+*/
+.text-theme {
+    color: #5369f8 !important;
+}
+
+.btn-theme {
+    background-color: #5369f8;
+    border-color: #5369f8;
+    color: #fff;
+}
+.account-block {
+    padding: 0;
+    
+    height: 100%;
+    position: relative;
+}
+.account-block .overlay {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*
+
+End Form control style
+##login ##Sign in ##Contact us
+*/
+.signup-btn a:hover{
+    color: var(--secondaryColor)!important;
+
+}
+ .nav-item a:hover ,.nav-item a:focus,.navbar-brand:hover{
+color: var(--secondaryColor) !important;
+}
+
 @media all and (device-width: 768px)
  and (device-height: 1024px)
   and (orientation:portrait) {
 
     .people-img-container{
         background-size:  450px;
-        margin-top: 120px;
     }
     .signup-btn,.signin-btn {
         display: none;

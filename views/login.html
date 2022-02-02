@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <title>تسجيل الدخول</title>
+</head>
+<body>
+    <style>
+       
+        body{
+        background: #f6f9fc;
+    }
+ 
+    .overlay{
+            background-image: url('../assets/images/signin-login-vectors/pc.svg');
+        background-size: cover;
+        }
+    
+    .text-theme {
+        color: #5369f8 !important;
+    }
+    
+    .btn-theme {
+        background-color: #5369f8;
+        border-color: #5369f8;
+        color: #fff;
+    }
+    
+      </style>
+
+    <!--
+        Header
+    -->
+    <header class="main-header sticky-lg-top col-12">
+        <!-- Nav bar-->
+        <nav class="navbar  navbar-expand-lg  navbar-bg  ">
+            <div class="container-fluid ">
+                <a class="navbar-brand text-white" href="#">Hire me</a>
+                <button class="navbar-toggler navbar-dark " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse fw-bold " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link main-active" aria-current="page" href="index.html">الرئيسية</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link navbar-a-color" href="#">الوظائف</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link navbar-a-color" href="#">خدماتنا</a>
+                        </li>
+                        <li class="nav-item mx-3 dropdown">
+                            <a class="nav-link dropdown-toggle navbar-a-color" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                المزيد
+                            </a>
+                            <ul class="dropdown-menu border-0 navbar-bg " aria-labelledby="navbarDropdown">
+                                <li><a class="navbar-a-color nav-link d-lg-none" href="login.html"> تسجيل الدخول</a></li>
+                                <li><a class="navbar-a-color nav-link d-lg-none" href="signin.html">تسجيل حساب</a></li>
+
+                                <li><a class="navbar-a-color nav-link " href="dashbord/index.html"> لوحة التحكم
+                                        </a></li>
+
+                                        <li><a class="navbar-a-color nav-link " href="profile.html"> الملف
+                                            الشخصي</a></li>
+                                <li><a class="navbar-a-color nav-link " href="#">من نحن</a></li>
+                                <li><a class=" navbar-a-color nav-link " href="#">شركائنا</a></li>
+                                <li><a class="navbar-a-color nav-link " href="contact-us.html">تواصل معنا</a></li>
+                            </ul>
+                        </li>
+                     
+
+                    </ul>
+
+                </div>
+                    <!-- Login and Sign in with images section-->
+                    <div class=" col-lg-5  position-relative d-none d-sm-none d-lg-block ">
+               
+                   
+                        <div class="row justify-content-start ">
+                            <button class="col-5  m-2 signup-btn btn-bg-color  ">
+                                <a href="signin.html " class="text-decoration-none main-active">    تسجيل حساب</a>
+                            </button>
+                            <button class="col-5 m-2 signin-btn border-0 btn-bg-color ">
+                                <a href="login.html" class="text-decoration-none text-white">     الدخول</a>
+                            </button>
+                    </div>
+               
+            </div>
+            </div>
+           
+        </nav>
+              
+    </header>
+
+
+
+    <!--Main Content-->
+    <main class=" my-5">
+        <div id="main-wrapper" class="container">
+          <div class="row justify-content-center">
+              <div class="">
+                  <div class="card border-0 ">
+                      <div class="card-body p-0">
+                          <div class="row no-gutters">
+                              <div class="col-lg-6">
+                                  <div class="p-5">
+                                      <div class="mb-5">
+                                          <h3 class="h4 font-weight-bold text-theme">تسجيل الدخول</h3>
+                                      </div>
+      
+                                      <h6 class="h5 mb-0">مرحباً بك من جديد !</h6>
+                                      <p class="text-muted mt-2 mb-5"> شكراً لتواجدك على منصتنا</p>
+      
+                                      <form>
+                                          <div class="form-group">
+                                              <label for="exampleInputEmail1">الايميل الالكتروني</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1">
+                                          </div>
+                                          <div class="form-group mb-5">
+                                              <label for="exampleInputPassword1">كلمة السر</label>
+                                              <input type='password'  class="form-control" id="exampleInputPassword1">
+                                          </div>
+                                          <p>لا امتلك حساب ? <span><a href='signin.html'>تسجيل حساب</a></span></p>
+                                          <a href='../views/dashbord/index.html' type="submit" class="btn btn-theme">الدخول</a>
+                                      </form>
+                                  </div>
+                              </div>
+      
+                              <div class="col-lg-6 d-none d-lg-inline-block">
+                                <div class="account-block  rounded-right">
+                                    <div class="overlay rounded-right"></div>
+                                 
+                                </div>
+                              </div>
+                          </div>
+      
+                      </div>
+                      <!-- end card-body -->
+                  </div>
+                  <!-- end card -->
+      
+      
+                  <!-- end row -->
+      
+              </div>
+              <!-- end col -->
+          </div>
+          <!-- Row -->
+      </div>
+      </main>
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
