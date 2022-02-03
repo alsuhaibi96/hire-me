@@ -2,7 +2,7 @@
 :root{
 --primaryColor:#23264b;
 --secondaryColor:#e7b54c;
---textColor:#29294c;
+--textColor:#4b4b9e;
 }
 .main-header,.main-content,.images-container {
 background-color: var(--primaryColor)
@@ -165,14 +165,16 @@ height: 500px;
 ##login ##Sign in ##Contact us
 */
 .text-theme {
-    color: #5369f8 !important;
+    color: var(--primaryColor) !important;
 }
-
+    
 .btn-theme {
-    background-color: #5369f8;
+    background-color: var(--primaryColor);
     border-color: #5369f8;
     color: #fff;
 }
+
+
 .account-block {
     padding: 0;
     
@@ -203,6 +205,36 @@ End Form control style
  .nav-item a:hover ,.nav-item a:focus,.navbar-brand:hover{
 color: var(--secondaryColor) !important;
 }
+
+
+/*
+Jobs style
+*/
+.search-btn-job{
+    padding-left: 10px;
+    width:40px;
+    padding: 10px 0px;
+    height: 38px;
+    top:0px;
+    left: 0px;
+}
+.text-color{
+color: var(--textColor);
+}
+.li-jobs a:hover,.job-title-container a:hover{
+    color: var(--textColor)!important;
+text-decoration: underline solid var(--primaryColor) !important;
+}
+.li-jobs a:focus{
+    color: var(--textColor)!important;
+}
+.marker-color{
+    color: var(--primaryColor);
+}
+.btn-theme :hover{
+    color: white !important;
+}
+
 
 @media all and (device-width: 768px)
  and (device-height: 1024px)

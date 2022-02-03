@@ -18,11 +18,11 @@
     <!--
 The main header
 -->
-    <div class="container-fluid">
+    <div class="container-fluid ">
 
         <div class="row">
             <div class="main-content col-md-6   ">
-                <header class="main-header ">
+                <header class="main-header sticky-top top-0 ">
                     <!-- Nav bar-->
                     <nav class="navbar  navbar-expand-lg  navbar-bg  ">
                         <div class="container-fluid ">
@@ -38,10 +38,10 @@ The main header
                                         <a class="nav-link main-active" aria-current="page" href="index.html">الرئيسية</a>
                                     </li>
                                     <li class="nav-item mx-3">
-                                        <a class="nav-link navbar-a-color" href="#">الوظائف</a>
+                                        <a class="nav-link navbar-a-color" href="jobs.html">الوظائف</a>
                                     </li>
                                     <li class="nav-item mx-3">
-                                        <a class="nav-link navbar-a-color" href="#">خدماتنا</a>
+                                        <a class="nav-link navbar-a-color" href="our-services.html">خدماتنا</a>
                                     </li>
                                     <li class="nav-item mx-3 dropdown">
                                         <a class="nav-link dropdown-toggle navbar-a-color" href="#" id="navbarDropdown"
@@ -56,8 +56,8 @@ The main header
 
                                                     <li><a class="navbar-a-color nav-link " href="profile.html"> الملف
                                                         الشخصي</a></li>
-                                            <li><a class="navbar-a-color nav-link " href="#">من نحن</a></li>
-                                            <li><a class=" navbar-a-color nav-link " href="#">شركائنا</a></li>
+                                            <li><a class="navbar-a-color nav-link " href="about-us.html">من نحن</a></li>
+                                            <li><a class=" navbar-a-color nav-link " href="#partners">شركائنا</a></li>
                                             <li><a class="navbar-a-color nav-link " href="contact-us.html">تواصل معنا</a></li>
                                         </ul>
                                     </li>
@@ -81,23 +81,29 @@ The main header
                             معنا عبر المنصة نساعدك على ايجاد الوظيفة المناسبة <br>لبناء عالم افضل.
                         </p>
                         <div class="row ps-3 mt-5">
-                            <button class="col-4  searchJobbtn btn-bg-color ">
-                                ابحث عن وظيفة
-                            </button>
-                            <button class="col-4  readmore-btn border-0 btn-bg-color ">
+                           
+                            <a href="jobs.html" class="text-decoration-none col-4  ">  
+                                <button class="  searchJobbtn btn-bg-color ">
+                                    ابحث عن وظيفة
+                                </button>
+                            </a>  
+                           
+                        <a href="jobs.html" class="col-4 mt-3 "> 
+                            <button class="readmore-btn border-0 btn-bg-color ">
                                 اقرأ اكثر <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
                                         d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                                 </svg>
                             </button>
+                        </a>
 
                         </div>
                         <!--
                             Our Partners
                         -->
                         <br>
-                        <div class="our-partners  ps-3 pt-5 our-partners-color ">
+                        <div class="our-partners  ps-3 pt-5 our-partners-color " id="partners">
 
 
                             <span class="">3000 مؤسسة واكثر</span>
@@ -225,7 +231,7 @@ The main header
         -->
         <section>
 
-<div class="pt-5 ">
+<div class="pt-5 mb-5 ">
 <div class="m-auto col-lg-6  pt-5">
 <h1 class="text-center">
     هل تبحث عن وظيفة الآن ؟
@@ -257,9 +263,85 @@ The main header
     <!--
 Footer section
 -->
-    <footer>
+<footer>
+    <section class="partners-bg">
+        <!-- Footer -->
+        <footer class=" text-white">
+            <!-- Grid container -->
+            <div class="container pt-4 pb-1">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h4 class="">hire me</h4>
 
-    </footer>
+                        <p>
+                          الموقع الاشهر على الاطلاق
+                          <br>
+                          قمنا بتوظيف اكثر من 100 الف شخص حول العالم 
+                          <br>
+                          لدينا شركاء من حول العالم وثقتكم بنا هي التي جعلتنا نستمر
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">عن منصتنا</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li class="mt-3">
+                                <a href="about-us.html" class="text-white">من نحن</a>
+                            </li>
+                            <li>
+                                <a href="our-services.html" class="text-white">خدماتنا</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html" class="text-white">تواصل معنا</a>
+                            </li>
+                            <li class="d-flex flex-row my-2">
+                                <a href="#!" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
+                                <a href="#!" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+                                <a href="#!" class="text-white mx-2"><i class="bi bi-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-0">تصفح</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mt-3">
+                                <a href="jobs.html" class="text-white">الوظائف</a>
+                            </li>
+                            <li>
+                                <a href="compenies.html" class="text-white">شركائنا</a>
+                            </li>
+                            <li class="login_checked">
+                                <a href="./login.html" class=" btn bg-white text-black mt-2">تسجيل الدخول</a>
+                            </li>
+
+                        </ul>
+                    </div>
+            
+                </div>
+                <hr>
+                         <!-- Copyright -->
+            <div class="text-center ">
+                الحقوق محفوظة:  2022 ©
+              <p> تطوير <a class="text-white" href="https://www.alsuhaibi96.com" > Abdlurahman Alsuhaibi</a></p>   
+             </div>
+             <!-- Copyright -->
+            </div>
+            <!-- Grid container -->
+
+   
+        </footer>
+        <!-- Footer -->
+    </section>
+</footer>
 
 
     <script src="../js/jquery-3.6.0.min.js"></script>
