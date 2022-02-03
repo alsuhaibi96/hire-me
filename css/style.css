@@ -8,7 +8,7 @@
 background-color: var(--primaryColor)
 }
  .main-active{
-color: var(--secondaryColor);
+color: var(--secondaryColor) !important;
 }
 .navbar-bg {
     background-color: var(--primaryColor);
@@ -126,7 +126,7 @@ background-color: #dfe9f6;
     left: 4px;
 }
 .search-container input {
-width: 150px;
+width: 120px;
 border: none;
 height: 40px;
 }
